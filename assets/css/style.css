@@ -36,7 +36,7 @@ header .right {
     float: right;
 }
 
-header nav ul li  {
+header nav ul li {
     display: inline-block;
     margin-top: 53px;
     float: left;
@@ -56,7 +56,7 @@ header nav ul li a:hover {
     transition: border 1.2s ease;
 }
 
-#logo img{
+#logo img {
     position: relative;
     margin-top: -55px;
     margin-left: 413px;
@@ -125,17 +125,21 @@ header nav ul li a:hover {
 
 .block1 article {
     display: inline-block;
+    margin-right: 10px;
 }
 
 .block2 article {
     display: inline-block;
+    margin-right: 10px;
 }
 
-.date, .get-ticket, .info {
+.date,
+.get-ticket,
+.info {
     text-transform: uppercase;
 }
 
-.date  {
+.date {
     color: white;
     width: 310px;
     background-color: black;
@@ -150,16 +154,17 @@ header nav ul li a:hover {
     width: 310px;
     background-color: white;
     text-align: center;
-    font-size: 15pt;
+    font-size: 10pt;
     padding-top: 30px;
     padding-bottom: 25px;
     letter-spacing: 1px;
+    font-family: 'Lubalin Graph Regular', sans-serif;
 }
 
 .description:hover {
     background-color: black;
     color: white;
-    transition: 0.5s ease; 
+    transition: 0.5s ease;
 }
 
 .action {
@@ -204,3 +209,38 @@ header nav ul li a:hover {
 }
 
 
+@media (min-width: 968px) and (max-width: 1049px) {
+    #main-image {
+        height: 400px;
+    }
+    .scroll-down {
+        margin-top: 340px;
+        margin-left: 455px;
+    }
+    .scroll-down .fas {
+        font-size: 45px;
+    }
+}
+
+@media (min-width: 1050px) and (max-width: 1200px) {
+    #main-image {
+        height: 440px;
+    }
+    .scroll-down {
+        margin-top: 350px;
+        margin-left: 452px;
+    }
+    .scroll-down .fas {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1472px) {
+    #main-image {
+        height: 520px;
+    }
+    .scroll-down {
+    margin-top: 350px;
+    margin-left: 442px;
+    }
+}
